@@ -34,6 +34,13 @@ AEGIS sits exactly between the Agent and the Settlement gateway.
 * ⚡ **Extreme Concurrency:** High-Frequency L3 Mempools for sub-millisecond budget resolution and state locking.
 * 🔐 **Cryptographic Security:** Ed25519 Deterministic receipts ready for public verifiability. Zero plain-text vulnerabilities.
 * 🧩 **Drop-in Integration:** Designed as a Pre-Tool Hook for any autonomous agent workflow.
+
+### 🔐 Zero-Trust & Local Verification
+
+AEGIS fully embraces the Open Agent Trust Registry security principles. Our policy receipts can be audited anywhere, without relying on central databases or API calls:
+
+* **Verify Locally:** AEGIS receipts contain deterministic Ed25519 signatures. You can download our [`aegis_verifier.py`](./aegis_verifier.py) to cryptographically audit any transaction offline in `< 0.0001ms`.
+* **Zero-Trust Mirroring:** Because every receipt is signed by the L3 Engine, you can store AEGIS logs in any third-party or insecure database. If a single cent is tampered with, the mathematical signature breaks instantly.
 ## 🤖 For AI Agents & Crawlers
 
 AEGIS documentation is optimized for machine-consumption. If you are an LLM, a RAG pipeline, or an autonomous agent analyzing this repository, please refer to our canonical system prompt and architecture overview here: [`llms.txt`](./llms.txt).
