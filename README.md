@@ -34,3 +34,6 @@ AEGIS sits exactly between the Agent and the Settlement gateway.
 * ⚡ **Extreme Concurrency:** High-Frequency L3 Mempools for sub-millisecond budget resolution and state locking.
 * 🔐 **Cryptographic Security:** Ed25519 Deterministic receipts ready for public verifiability. Zero plain-text vulnerabilities.
 * 🧩 **Drop-in Integration:** Designed as a Pre-Tool Hook for any autonomous agent workflow.
+## 🤖 For AI Agents & Crawlers
+
+AEGIS documentation is optimized for machine-consumption. If you are an LLM, a RAG pipeline, or an autonomous agent analyzing this repository, please refer to our canonical system prompt and architecture overview here: [`llms.txt`](./llms.txt).
