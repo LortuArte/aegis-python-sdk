@@ -17,7 +17,7 @@ That is why I built **AEGIS**: an L3 strictly-ordered Policy Gate designed purel
 
 ### 🔴 The Harsh Reality of the Industry
 
-Uploading aegis_acid_benchmark 2026-05-10 07-39-24.mp4…
+https://github.com/user-attachments/assets/4f0b4815-02f8-454e-8547-51769ee85f69
 
 If your AI agent fires 1,000 concurrent API calls at $0.05 each, current infrastructure sets you up for failure:
 
